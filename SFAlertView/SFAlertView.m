@@ -522,7 +522,7 @@ static SFAlertView *__sf_alert_current_view;
     if (verticalConstraint)
     {
         CGFloat height = superview.bounds.size.width;
-        verticalConstraint.constant = height * 0.5 + CGRectGetHeight(self.bounds) * 0.5;
+        verticalConstraint.constant = height * 0.8 + CGRectGetHeight(self.bounds) * 0.5;
         [superview setNeedsUpdateConstraints];
         [superview layoutIfNeeded];
         
@@ -571,7 +571,7 @@ static SFAlertView *__sf_alert_current_view;
     if (verticalConstraint)
     {
         CGFloat height = superview.bounds.size.width;
-        verticalConstraint.constant = height * 0.5 + CGRectGetHeight(self.bounds) * 0.5;
+        verticalConstraint.constant = height * 0.8 + CGRectGetHeight(self.bounds) * 0.5;
         [superview setNeedsUpdateConstraints];
         
         [UIView
